@@ -3,9 +3,6 @@
 ## | Tema do Projeto
 <h1>Análise de Vendas de Jogos Digitais</h1>
 
-## | Autora
-- Giovanna Galichio  
-
 ## | Descrição do Projeto
 
 <p>Este projeto tem como foco a análise e o tratamento de dados relacionados às vendas de jogos digitais ao longo dos anos. O objetivo é explorar um dataset real para entender padrões de vendas por plataforma, gênero e região.</p>
@@ -24,6 +21,13 @@
     <li>Criar visualizações e dashboards interativos (Power BI).</li>
 </ul>
 
+## | Tecnologias utilizadas
+
+- Python  
+- Pandas  
+- Jupyter Notebook  
+- SQL (em desenvolvimento)  
+- Power BI (em desenvolvimento)
 ## | Base de Dados
 
 <p>Fonte: <a href="https://www.kaggle.com/datasets/gregorut/videogamesales/data" target="_blank">Kaggle</a></p>
@@ -74,10 +78,5 @@ Os dados foram tratados utilizando Python e Pandas, seguindo o processo de ETL:
 
 <p>Em andamento (ETL concluído, análise em SQL e visualização em Power BI pendentes).</p>
 
-## | Tecnologias utilizadas
-
-- Python  
-- Pandas  
-- Jupyter Notebook  
-- SQL (em desenvolvimento)  
-- Power BI (em desenvolvimento)
+## | Autora
+- Giovanna Galichio  
