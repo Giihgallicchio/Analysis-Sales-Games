@@ -26,7 +26,7 @@
 
 ## | Base de Dados
 
-<p>Fonte: <a href="https://www.kaggle.com/" target="_blank">Kaggle</a></p>
+<p>Fonte: <a href="https://www.kaggle.com/datasets/gregorut/videogamesales/data" target="_blank">Kaggle</a></p>
 
 <p>O dataset utilizado contém informações sobre vendas de jogos digitais, incluindo nome do jogo, plataforma, gênero, ano de lançamento e vendas por região.</p>
 
