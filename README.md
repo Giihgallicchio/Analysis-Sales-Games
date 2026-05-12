@@ -94,6 +94,7 @@ Dashboard interativo:
 - vgsales.csv
 - Dados_Tratados.xlsx
 - Analysis-Sales-Games Dashboard.pbix
+- Imagens
 - README.md
 - LICENSE
 
