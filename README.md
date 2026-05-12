@@ -94,9 +94,9 @@ Dashboard interativo:
 - LICENSE
 
 ##  Status do Projeto
-- ETL concluído  
-- Dashboard Power BI concluído  
-- Análises SQL em desenvolvimento
+✅ ETL concluído  
+✅ Dashboard Power BI concluído  
+🔄 Análises SQL em desenvolvimento
 
 
 ##  Autora
