@@ -93,7 +93,7 @@ Dashboard interativo:
 - Tratamento_Dados_Jogos.ipynb
 - vgsales.csv
 - Dados_Tratados.xlsx
-- Dashboard.pbix
+- Analysis-Sales-Games Dashboard.pbix
 - README.md
 - LICENSE
 
