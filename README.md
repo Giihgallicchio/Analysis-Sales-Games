@@ -32,7 +32,7 @@ O objetivo é explorar um dataset real para identificar padrões de vendas, dese
 
 ##  Base de Dados
 **Fonte:**
-[Kaggle]([https://app.powerbi.com/reportEmbed?reportId=2ebb2819-2c26-4087-9235-a79b79dc04ab&autoAuth=true&ctid=6f9e3b1e-1809-444a-81d3-82d40a928812](https://www.kaggle.com/datasets/gregorut/videogamesales/data)
+[Kaggle](https://www.kaggle.com/datasets/gregorut/videogamesales/data)
 
 O dataset utilizado contém informações sobre:
 - Nome do jogo
