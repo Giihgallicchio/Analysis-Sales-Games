@@ -1,65 +1,109 @@
-# PROJETO - ANÁLISE DE DADOS DE VENDAS DE JOGOS
+#  PROJETO - ANÁLISE DE DADOS DE VENDAS DE JOGOS
 
-## | Tema do Projeto
+##  Tema do Projeto
 Análise de Vendas de Jogos Digitais
 
-## | Descrição do Projeto
-Este projeto tem como foco a análise e o tratamento de dados relacionados às vendas de jogos digitais ao longo dos anos. O objetivo é explorar um dataset real para entender padrões de vendas por plataforma, gênero e região.
 
-Até o momento, foi realizada a etapa de limpeza, organização e padronização dos dados utilizando Python e Pandas. O projeto ainda está em desenvolvimento, com próximas etapas envolvendo análise em SQL e criação de dashboards no Power BI.
 
-## | Objetivo da Análise
-O objetivo principal é preparar e estruturar os dados para análise, permitindo:
+##  Descrição do Projeto
+Este projeto tem como foco a análise e o tratamento de dados relacionados às vendas de jogos digitais ao longo dos anos.
 
-- Identificar os jogos e gêneros mais vendidos;
-- Analisar o desempenho por plataforma;
-- Comparar vendas entre regiões;
-- Explorar tendências do mercado de jogos ao longo do tempo;
-- Criar visualizações e dashboards interativos (Power BI).
+O objetivo é explorar um dataset real para identificar padrões de vendas, desempenho de plataformas, gêneros mais populares e tendências do mercado gamer ao longo do tempo.
 
-## | Tecnologias utilizadas
-- Python  
-- Pandas  
-- Jupyter Notebook  
-- SQL (em desenvolvimento)  
-- Power BI (em desenvolvimento)
 
-## | Base de Dados
-Fonte: Kaggle  
-O dataset utilizado contém informações sobre vendas de jogos digitais, incluindo nome, plataforma, gênero, ano de lançamento e vendas por região.
+##  Objetivos da Análise
+- Identificar os jogos mais vendidos;
+- Analisar os gêneros com maior volume de vendas;
+- Comparar o desempenho entre plataformas;
+- Avaliar vendas por região;
+- Explorar tendências do mercado gamer;
+- Criar dashboards interativos no Power BI.
 
-## | Processamento de Dados (ETL)
-Os dados foram tratados utilizando Python e Pandas, seguindo o processo de ETL:
 
-- **Extração:** Leitura do arquivo original `vgsales.csv`.
-- **Transformação:**
-  - Tratamento de valores nulos  
-  - Padronização de colunas  
-  - Correção de tipos de dados  
-  - Remoção de inconsistências  
-  - Organização dos dados para análise  
-- **Carga:** Exportação para `Dados_Tratados.xlsx`.
 
-## | Próximas Etapas do Projeto
-- Consultas e análise dos dados utilizando SQL;
-- Criação de dashboards no Power BI;
-- Visualização de insights sobre o mercado de jogos;
-- Identificação de padrões de vendas por região e plataforma.
+##  Tecnologias Utilizadas
+- Python
+- Pandas
+- Jupyter Notebook
+- SQL
+- Power BI
 
-## | Ideia do Projeto
-O foco do projeto é explorar o mercado de jogos digitais através da análise de dados, identificando padrões de vendas e comportamento do mercado ao longo dos anos.
 
-O objetivo final é transformar os dados tratados em insights visuais e estratégicos.
 
-## | Estrutura do Projeto
-- Tratamento_Dados_Jogos.ipynb  
-- vgsales.csv  
-- Dados_Tratados.xlsx  
-- README.md  
-- LICENSE  
+##  Base de Dados
+**Fonte:** Kaggle
 
-## | Status do Projeto
-Em andamento (ETL concluído, análise em SQL e visualização em Power BI pendentes).
+O dataset utilizado contém informações sobre:
+- Nome do jogo
+- Plataforma
+- Gênero
+- Ano de lançamento
+- Publicadora
+- Vendas globais e regionais
 
-## | Autora
-Giovanna Galichio
+
+
+##  Processamento de Dados (ETL)
+
+Os dados foram tratados utilizando Python e Pandas seguindo o processo de ETL:
+
+###  Extração
+Leitura do arquivo original:
+```python
+vgsales.csv
+```
+
+###  Transformação
+- Tratamento de valores nulos
+- Padronização de colunas
+- Correção de tipos de dados
+- Remoção de inconsistências
+- Organização dos dados para análise
+
+###  Carga
+Exportação dos dados tratados:
+```python
+Dados_Tratados.xlsx
+```
+
+
+
+##  Dashboard Power BI
+
+O dashboard foi desenvolvido para apresentar visualmente os principais insights sobre o mercado de jogos digitais.
+
+###  Principais análises:
+- Total de vendas globais;
+- Jogos mais vendidos;
+- Vendas por plataforma;
+- Distribuição por gênero;
+- Comparação de vendas entre regiões;
+- Evolução das vendas ao longo dos anos.
+
+Dashboard interativo:
+[Visualizar Dashboard](https://app.powerbi.com/reportEmbed?reportId=2ebb2819-2c26-4087-9235-a79b79dc04ab&autoAuth=true&ctid=6f9e3b1e-1809-444a-81d3-82d40a928812)
+
+
+##  Estrutura do Projeto
+
+```bash
+ Analise-Vendas-Jogos
+ ┣  Tratamento_Dados_Jogos.ipynb
+ ┣  vgsales.csv
+ ┣  Dados_Tratados.xlsx
+ ┣  Dashboard.pbix
+ ┣  README.md
+ ┗  LICENSE
+```
+
+
+
+##  Status do Projeto
+ETL concluído  
+Dashboard Power BI concluído  
+Análises SQL em desenvolvimento
+
+
+
+##  Autora
+**Giovanna Galichio**
