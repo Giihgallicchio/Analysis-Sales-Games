@@ -84,6 +84,10 @@ O dashboard foi desenvolvido para apresentar visualmente os principais insights 
 Dashboard interativo:
 [Visualizar Dashboard](https://app.powerbi.com/reportEmbed?reportId=2ebb2819-2c26-4087-9235-a79b79dc04ab&autoAuth=true&ctid=6f9e3b1e-1809-444a-81d3-82d40a928812)
 
+##  Preview do Dashboard
+
+![Dashboard](imagens/dashboard.png)
+
 
 ## | Estrutura do Projeto
 - Tratamento_Dados_Jogos.ipynb
