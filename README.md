@@ -89,7 +89,7 @@ Dashboard interativo:
 ![Dashboard](Imagens/Dashboard.png)
 
 
-## | Estrutura do Projeto
+##  Estrutura do Projeto
 - Tratamento_Dados_Jogos.ipynb
 - vgsales.csv
 - Dados_Tratados.xlsx
