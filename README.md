@@ -31,7 +31,7 @@ O objetivo é explorar um dataset real para identificar padrões de vendas, dese
 
 
 ##  Base de Dados
-**Fonte:** Kaggle
+**Fonte:** [Kaggle]([https://app.powerbi.com/reportEmbed?reportId=2ebb2819-2c26-4087-9235-a79b79dc04ab&autoAuth=true&ctid=6f9e3b1e-1809-444a-81d3-82d40a928812](https://www.kaggle.com/datasets/gregorut/videogamesales/data))
 
 O dataset utilizado contém informações sobre:
 - Nome do jogo
@@ -47,7 +47,7 @@ O dataset utilizado contém informações sobre:
 
 Os dados foram tratados utilizando Python e Pandas seguindo o processo de ETL:
 
-###  Extração
+###  Arquivo Original
 Leitura do arquivo original:
 ```python
 vgsales.csv
@@ -60,7 +60,7 @@ vgsales.csv
 - Remoção de inconsistências
 - Organização dos dados para análise
 
-###  Carga
+###  Dados Tratados
 Exportação dos dados tratados:
 ```python
 Dados_Tratados.xlsx
@@ -84,25 +84,18 @@ Dashboard interativo:
 [Visualizar Dashboard](https://app.powerbi.com/reportEmbed?reportId=2ebb2819-2c26-4087-9235-a79b79dc04ab&autoAuth=true&ctid=6f9e3b1e-1809-444a-81d3-82d40a928812)
 
 
-##  Estrutura do Projeto
-
-```bash
- Analise-Vendas-Jogos
- ┣  Tratamento_Dados_Jogos.ipynb
- ┣  vgsales.csv
- ┣  Dados_Tratados.xlsx
- ┣  Dashboard.pbix
- ┣  README.md
- ┗  LICENSE
-```
-
-
+## | Estrutura do Projeto
+- Tratamento_Dados_Jogos.ipynb
+- vgsales.csv
+- Dados_Tratados.xlsx
+- Dashboard.pbix
+- README.md
+- LICENSE
 
 ##  Status do Projeto
-ETL concluído  
-Dashboard Power BI concluído  
-Análises SQL em desenvolvimento
-
+- ETL concluído  
+- Dashboard Power BI concluído  
+- Análises SQL em desenvolvimento
 
 
 ##  Autora
