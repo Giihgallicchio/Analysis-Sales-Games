@@ -86,7 +86,7 @@ Dashboard interativo:
 
 ##  Preview do Dashboard
 
-![Dashboard](Imagens/Dashboard.png)
+![Dashboard](Imagens/PreviewDashboard.png)
 
 
 ##  Estrutura do Projeto
